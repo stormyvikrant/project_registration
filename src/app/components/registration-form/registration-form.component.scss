@@ -1,0 +1,47 @@
+.main_container {
+    height: 92%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .registration-container {
+        max-width: 400px;
+        margin: 0 auto;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 1rem;
+
+        .form_header {
+            width: 100%;
+            padding: 1rem;
+            text-align: center;
+
+            h1 {
+                margin: 0px
+            }
+
+        }
+
+        .registrationForm {
+            margin-top: 10px;
+
+            .submitBtn {
+                width: 100%;
+                margin: auto;
+                background-color: green;
+                color: white;
+            }
+
+            .submitBtn:disabled {
+
+                background-color: #ccc;
+                color: black;
+            }
+        }
+    }
+
+    .form-field {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+}

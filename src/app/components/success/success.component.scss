@@ -1,0 +1,29 @@
+.main_container {
+    .success_header_box {
+        h1 {
+            color: #4caf50;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .success_message_box {
+        p {
+            font-size: 1rem;
+            color: #333;
+            margin-bottom: 2rem;
+        }
+    }
+
+    .success_btn {
+        .go-back-btn {
+            background-color: #4caf50;
+            color: white;
+        }
+
+        .go-back-btn:hover {
+            background-color: #45a049;
+        }
+    }
+
+}
